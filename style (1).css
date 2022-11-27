@@ -1,0 +1,61 @@
+body {
+	background: url("bg1.jpg") no-repeat center fixed;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: rgba(0,0,0,0.6);
+	width: 660px;
+	height: auto;
+}
+.btn {
+	margin: 30px;
+	margin-bottom: 20px;
+	background: none;
+	outline: none;
+}
+.form-control {
+	width: 500px;
+	margin-top: 10px;
+	border: none;
+	background: none;
+	border-bottom: 1px solid #2E6DA4;
+	border-radius: 0;
+	color: white;
+}
+.btn:hover {
+	background:none;
+}
+p,h1 {
+	color: #8E8E8E;
+}
+.weather {
+	margin-bottom: 20px;
+	color: white;
+}
+
+#textarea {
+	width: 500px;
+	margin-top: 10px;
+	height: 300px;
+	text-align: left;
+	resize: none;
+	background: none;
+	border: 1px solid #2E6DA4;
+	outline: none;
+	color: white;
+}
+label {
+	float: left;
+	margin-left: 70px;
+	color: #8E8E8E;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.bottom-bar {
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+
+}
